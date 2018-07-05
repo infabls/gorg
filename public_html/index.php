@@ -2,6 +2,7 @@
 
 
  session_start();
+	include  dirname(__FILE__)."../engine/loader.php";
  require_once '../engine/loader.php';
  // check_cache();
  Router_start();
